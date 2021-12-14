@@ -14,6 +14,13 @@
 		796DF1352744528200457C9C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DF1342744528200457C9C /* User.swift */; };
 		796DF137274452E400457C9C /* UsersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DF136274452E400457C9C /* UsersData.swift */; };
 		796DF139274457D900457C9C /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DF138274457D800457C9C /* UserItem.swift */; };
+		79EF5FB027690F0900BE6163 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5FAE27690F0900BE6163 /* success.m4a */; };
+		79EF5FB127690F0900BE6163 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5FAF27690F0900BE6163 /* chimeup.mp3 */; };
+		79EF5FB72769146E00BE6163 /* bulletTrain.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5FB32769146D00BE6163 /* bulletTrain.mp4 */; };
+		79EF5FB82769146E00BE6163 /* monkey.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5FB42769146E00BE6163 /* monkey.mp4 */; };
+		79EF5FB92769146E00BE6163 /* newYorkFlip.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5FB52769146E00BE6163 /* newYorkFlip.mp4 */; };
+		79EF5FBA2769146E00BE6163 /* shark.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5FB62769146E00BE6163 /* shark.mp4 */; };
+		79EF5FBC2769148400BE6163 /* telephone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5FBB2769148400BE6163 /* telephone.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +32,13 @@
 		796DF1342744528200457C9C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		796DF136274452E400457C9C /* UsersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersData.swift; sourceTree = "<group>"; };
 		796DF138274457D800457C9C /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
+		79EF5FAE27690F0900BE6163 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
+		79EF5FAF27690F0900BE6163 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		79EF5FB32769146D00BE6163 /* bulletTrain.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bulletTrain.mp4; sourceTree = "<group>"; };
+		79EF5FB42769146E00BE6163 /* monkey.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey.mp4; sourceTree = "<group>"; };
+		79EF5FB52769146E00BE6163 /* newYorkFlip.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = newYorkFlip.mp4; sourceTree = "<group>"; };
+		79EF5FB62769146E00BE6163 /* shark.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shark.mp4; sourceTree = "<group>"; };
+		79EF5FBB2769148400BE6163 /* telephone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = telephone.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +91,10 @@
 		79EF5FA927690CF900BE6163 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				796DF1282744523900457C9C /* UsersView.swift */,
-				796DF138274457D800457C9C /* UserItem.swift */,
+				79EF5FAB27690EC300BE6163 /* Screens */,
+				79EF5FAC27690ED100BE6163 /* Sounds */,
+				79EF5FAD27690EDE00BE6163 /* Utilities */,
+				79EF5FB227690F6200BE6163 /* Videos */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -90,6 +106,43 @@
 				796DF136274452E400457C9C /* UsersData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		79EF5FAB27690EC300BE6163 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				796DF1282744523900457C9C /* UsersView.swift */,
+				796DF138274457D800457C9C /* UserItem.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		79EF5FAC27690ED100BE6163 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				79EF5FAF27690F0900BE6163 /* chimeup.mp3 */,
+				79EF5FAE27690F0900BE6163 /* success.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		79EF5FAD27690EDE00BE6163 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		79EF5FB227690F6200BE6163 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				79EF5FB32769146D00BE6163 /* bulletTrain.mp4 */,
+				79EF5FB42769146E00BE6163 /* monkey.mp4 */,
+				79EF5FB52769146E00BE6163 /* newYorkFlip.mp4 */,
+				79EF5FB62769146E00BE6163 /* shark.mp4 */,
+				79EF5FBB2769148400BE6163 /* telephone.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +203,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79EF5FB127690F0900BE6163 /* chimeup.mp3 in Resources */,
+				79EF5FBA2769146E00BE6163 /* shark.mp4 in Resources */,
 				796DF12E2744523E00457C9C /* Preview Assets.xcassets in Resources */,
+				79EF5FB82769146E00BE6163 /* monkey.mp4 in Resources */,
+				79EF5FB72769146E00BE6163 /* bulletTrain.mp4 in Resources */,
+				79EF5FB027690F0900BE6163 /* success.m4a in Resources */,
+				79EF5FBC2769148400BE6163 /* telephone.mp4 in Resources */,
 				796DF12B2744523E00457C9C /* Assets.xcassets in Resources */,
+				79EF5FB92769146E00BE6163 /* newYorkFlip.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
