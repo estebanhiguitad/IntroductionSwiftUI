@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct UsersView: View {
     
     private let users = UsersData().createList()
     
@@ -22,6 +22,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        UsersView()
     }
 }
